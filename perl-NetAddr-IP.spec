@@ -1,6 +1,6 @@
 %define module  NetAddr-IP
 %define name    perl-%{module}
-%define version 4.004
+%define version 4.007
 %define release %mkrel 1
 
 Name:           %{name}
@@ -10,7 +10,7 @@ Summary:        Manage IPv4 and IPv6 addresses and subnets in Perl
 Group:          Development/Perl
 License:        Artistic
 Url:            http://search.cpan.org/dist/%{module}/
-Source:         http://www.cpan.org/modules/by-module/Net/%{module}-%{version}.tar.bz2
+Source:         http://www.cpan.org/modules/by-module/NetAddr/%{module}-%{version}.tar.gz
 BuildRequires:  perl-devel
 BuildRoot:      %{_tmppath}/%{name}-%{version}
 
