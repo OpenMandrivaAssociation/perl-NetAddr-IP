@@ -12,6 +12,7 @@ License:        Artistic
 Url:            http://search.cpan.org/dist/%{module}/
 Source:         http://www.cpan.org/modules/by-module/NetAddr/%{module}-%{version}.tar.gz
 BuildRequires:  perl-devel
+BuildRoot:      %{_tmppath}/%{name}-%{version}
 
 %description
 This module provides an object-oriented abstraction on top of IP
