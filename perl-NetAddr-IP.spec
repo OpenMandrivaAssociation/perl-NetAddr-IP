@@ -1,6 +1,6 @@
 %define module  NetAddr-IP
 %define name    perl-%{module}
-%define version 4.026
+%define version 4.027
 %define release %mkrel 1
 
 Name:           %{name}
