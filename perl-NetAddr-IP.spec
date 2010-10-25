@@ -1,9 +1,9 @@
 %define upstream_name    NetAddr-IP
-%define upstream_version 4.030
+%define upstream_version 4.033
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:        Manage IPv4 and IPv6 addresses and subnets in Perl
 License:        Artistic
