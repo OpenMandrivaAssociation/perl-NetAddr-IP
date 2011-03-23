@@ -1,5 +1,5 @@
 %define upstream_name    NetAddr-IP
-%define upstream_version 4.041
+%define upstream_version 4.042
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
