@@ -1,14 +1,14 @@
 %define modname	NetAddr-IP
-%define modver	4.044
+%define modver 4.069
 
 Summary:	Manage IPv4 and IPv6 addresses and subnets in Perl
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	9
+Release:	1
 License:	Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}/
-Source0:	http://www.cpan.org/modules/by-module/NetAddr/%{modname}-%{modver}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/NetAddr/NetAddr-IP-%{modver}.tar.gz
 BuildRequires:	perl-devel
 
 %description
@@ -33,4 +33,5 @@ rm -f t/00-Sign.t # debug files make it fails
 %{perl_vendorarch}/NetAddr
 %{perl_vendorarch}/auto/NetAddr
 %{_mandir}/man3/*
+
 
