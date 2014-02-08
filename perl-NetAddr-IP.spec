@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    5
+Release:    6
 
 Summary:        Manage IPv4 and IPv6 addresses and subnets in Perl
 License:        Artistic
