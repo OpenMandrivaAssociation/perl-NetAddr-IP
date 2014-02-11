@@ -1,5 +1,5 @@
 %define modname	NetAddr-IP
-%define modver 4.069
+%define modver 4.072
 
 Summary:	Manage IPv4 and IPv6 addresses and subnets in Perl
 Name:		perl-%{modname}
@@ -33,5 +33,6 @@ rm -f t/00-Sign.t # debug files make it fails
 %{perl_vendorarch}/NetAddr
 %{perl_vendorarch}/auto/NetAddr
 %{_mandir}/man3/*
+
 
 
