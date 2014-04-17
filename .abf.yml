@@ -1,5 +1,6 @@
 removed_sources:
   NetAddr-IP-4.044.tar.gz: b8f51fe2ea8363f1581802c90ab096e67ea23835
   NetAddr-IP-4.069.tar.gz: eaf54ad8ef40fbb1516a1d4af2cdde94fb922143
-sources:
   NetAddr-IP-4.072.tar.gz: b74acec42d67f2acde059f266e80de522cdc04cc
+sources:
+  NetAddr-IP-4.073.tar.gz: 78c069dd79c9fb1ff8c3592d130e582023585b3e
