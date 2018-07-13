@@ -10,6 +10,7 @@ License:	Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}/
 Source0:	http://www.cpan.org/modules/by-module/NetAddr/%{modname}-%{modver}.tar.gz
+BuildRequires:	perl(Test::More)
 BuildRequires:	perl-devel
 
 %description
