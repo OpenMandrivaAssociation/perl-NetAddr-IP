@@ -5,7 +5,7 @@ Summary:	Manage IPv4 and IPv6 addresses and subnets in Perl
 
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	2
+Release:	3
 License:	Artistic
 Group:		Development/Perl
 Url:		http://metacpan.org/pod/NetAddr::IP
@@ -23,13 +23,13 @@ rm -f t/00-Sign.t # debug files make it fails
 
 %build
 %__perl Makefile.PL  INSTALLDIRS=vendor
-%make
+%make_build
 
 %check
 %make test
 
 %install
-%makeinstall_std
+%make_install
 
 %files
 %{perl_vendorarch}/NetAddr
