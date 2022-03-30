@@ -1,4 +1,7 @@
-%define modname	NetAddr-IP
+# Work around incomplete debug packages
+%global _empty_manifest_terminate_build 0
+
+%define modname NetAddr-IP
 %define modver 4.079
 
 Summary:	Manage IPv4 and IPv6 addresses and subnets in Perl
@@ -22,7 +25,7 @@ addresses or IP subnets, that allows for easy manipulations.
 rm -f t/00-Sign.t # debug files make it fails
 
 %build
-%__perl Makefile.PL  INSTALLDIRS=vendor
+perl Makefile.PL  INSTALLDIRS=vendor
 %make_build
 
 %check
@@ -34,4 +37,4 @@ rm -f t/00-Sign.t # debug files make it fails
 %files
 %{perl_vendorarch}/NetAddr
 %{perl_vendorarch}/auto/NetAddr
-%{_mandir}/man3/*
+%doc %{_mandir}/man3/*
