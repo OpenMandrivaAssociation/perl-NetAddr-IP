@@ -11,7 +11,7 @@ Version:	%perl_convert_version %{modver}
 Release:	7
 License:	Artistic
 Group:		Development/Perl
-Url:		http://metacpan.org/pod/NetAddr::IP
+Url:		https://metacpan.org/pod/NetAddr::IP
 Source0:	http://www.cpan.org/modules/by-module/NetAddr/%{modname}-%{modver}.tar.gz
 BuildRequires:	perl(Test::More)
 BuildRequires:	perl-devel
