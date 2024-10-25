@@ -8,7 +8,7 @@ Summary:	Manage IPv4 and IPv6 addresses and subnets in Perl
 
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	7
+Release:	8
 License:	Artistic
 Group:		Development/Perl
 Url:		https://metacpan.org/pod/NetAddr::IP
